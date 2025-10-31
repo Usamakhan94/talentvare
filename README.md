@@ -1,75 +1,47 @@
-# React + TypeScript + Vite
+# 🌐 Talentvare – Frontend Technology Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For the development of **Talentvare**, I’ve selected a **modern, performance-focused front-end stack** designed for scalability, maintainability, and a seamless user experience.  
+Each technology was chosen to ensure a clean development workflow, fast performance, and a consistent design system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack Overview
 
-## React Compiler
+| Category | Technology | Description |
+|-----------|-------------|-------------|
+| **Framework** | [React 19](https://react.dev) | Modern and modular library for building scalable, dynamic interfaces. |
+| **Language** | [TypeScript](https://www.typescriptlang.org) | Ensures type safety, reliability, and maintainability. |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) | Utility-first CSS framework for fast and consistent styling. |
+| **UI Components** | [ShadCN/UI](https://ui.shadcn.com) | Accessible, customizable component library built with Tailwind. |
+| **Forms & Validation** | [React Hook Form](https://react-hook-form.com) + [Zod](https://zod.dev) | Lightweight, type-safe form handling with schema-based validation. |
+| **Carousel / Slider** | [Swiper.js](https://swiperjs.com) | Responsive, modern slider library with touch and dynamic features. |
+| **Build Tool** | [Vite](https://vitejs.dev) | Lightning-fast development server and build optimizer. |
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 💡 Additional Integrations (Future-Ready)
 
-## Expanding the ESLint configuration
+| Category | Tools | Purpose |
+|-----------|--------|----------|
+| **Animations** | [Framer Motion](https://www.framer.com/motion) & [GSAP](https://greensock.com/gsap) | Smooth, performant animations and UI transitions. |
+| **State Management** | [Zustand](https://zustand-demo.pmnd.rs) & [Redux Toolkit](https://redux-toolkit.js.org) | Scalable and predictable global state management. |
+| **Data Fetching** | [TanStack Query (React Query)](https://tanstack.com/query/latest) | Efficient API caching and synchronization. |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Summary
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This stack ensures:
+-  **High performance** with modern build tools and React optimizations.  
+-  **Clean, responsive UI** powered by Tailwind and ShadCN.  
+-  **Type-safe codebase** with TypeScript and Zod validation.  
+-  **Smooth animations and reliable state handling** with GSAP, Framer Motion, Redux, and Zustand.  
+-  **Future scalability** for large-scale or enterprise-level features.  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 Alternative Considerations
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+If required in future phases:
+- **Next.js 16** – for **server-side rendering (SSR)** and enhanced **SEO optimization**.  
+- **UI Alternatives:** [Material UI](https://mui.com), [Bootstrap](https://getbootstrap.com), or [Ant Design](https://ant.design) for production-ready, themeable component libraries.
