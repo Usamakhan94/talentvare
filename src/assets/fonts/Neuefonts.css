@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./NeueHaasDisplayThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./NeueHaasDisplayMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  /* font-display: swap; */
+}
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./NeueHaasDisplayRoman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./NeueHaasDisplayBold.ttf") format("truetype");
+  font-weight: 600 700;
+  font-style: normal;
+  /* font-display: swap; */
+}
