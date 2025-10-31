@@ -1,7 +1,7 @@
 # 🌐 Talentvare – Frontend Technology Stack
 
-For the development of **Talentvare**, I’ve selected a modern and performance-focused front-end stack designed to ensure speed, scalability, and a clean development workflow.  
-Each technology was chosen for its stability, maintainability, and seamless integration with modern UI/UX standards.
+For the development of **Talentvare**, I’ve selected a **modern, performance-focused front-end stack** designed for scalability, maintainability, and a seamless user experience.  
+Each technology was chosen to ensure a clean development workflow, fast performance, and a consistent design system.
 
 ---
 
@@ -9,39 +9,42 @@ Each technology was chosen for its stability, maintainability, and seamless inte
 
 | Category | Technology | Description |
 |-----------|-------------|-------------|
-| **Framework** | [React 19](https://react.dev) | Modern and modular library for building scalable user interfaces. |
-| **Language** | [TypeScript](https://www.typescriptlang.org) | Adds type safety and reliability for long-term maintainability. |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) | Utility-first CSS for fast, consistent, and responsive styling. |
-| **UI Components** | [ShadCN/UI](https://ui.shadcn.com) | Accessible, customizable component library built on Tailwind. |
-| **Forms & Validation** | [React Hook Form](https://react-hook-form.com) + [Zod](https://zod.dev) | Type-safe, schema-based form handling and validation. |
-| **Carousel / Slider** | [Swiper.js](https://swiperjs.com) | Lightweight and responsive slider for dynamic interactions. |
-| **Build Tool** | [Vite](https://vitejs.dev) | Ultra-fast build tool for modern front-end development. |
+| **Framework** | [React 19](https://react.dev) | Modern and modular library for building scalable, dynamic interfaces. |
+| **Language** | [TypeScript](https://www.typescriptlang.org) | Ensures type safety, reliability, and maintainability. |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) | Utility-first CSS framework for fast and consistent styling. |
+| **UI Components** | [ShadCN/UI](https://ui.shadcn.com) | Accessible, customizable component library built with Tailwind. |
+| **Forms & Validation** | [React Hook Form](https://react-hook-form.com) + [Zod](https://zod.dev) | Lightweight, type-safe form handling with schema-based validation. |
+| **Carousel / Slider** | [Swiper.js](https://swiperjs.com) | Responsive, modern slider library with touch and dynamic features. |
+| **Build Tool** | [Vite](https://vitejs.dev) | Lightning-fast development server and build optimizer. |
 
 ---
 
 ## 💡 Additional Integrations (Future-Ready)
 
-- **Framer Motion** – For smooth and fluid animations.  
-- **React Query (TanStack Query)** – For API caching and data synchronization.  
-- **Zustand** – For lightweight, scalable state management.  
+| Category | Tools | Purpose |
+|-----------|--------|----------|
+| **Animations** | [Framer Motion](https://www.framer.com/motion) & [GSAP](https://greensock.com/gsap) | Smooth, performant animations and UI transitions. |
+| **State Management** | [Zustand](https://zustand-demo.pmnd.rs) & [Redux Toolkit](https://redux-toolkit.js.org) | Scalable and predictable global state management. |
+| **Data Fetching** | [TanStack Query (React Query)](https://tanstack.com/query/latest) | Efficient API caching and synchronization. |
 
 ---
 
 ## 🚀 Summary
 
 This stack ensures:
-- ⚡ **High performance** and optimized builds.  
-- 💎 **Modern, clean, and responsive UI.**  
-- 🔒 **Type-safe, reliable, and maintainable codebase.**  
-- 🌱 **Scalability** for future features and expansions.  
+- ⚡ **High performance** with modern build tools and React optimizations.  
+- 💎 **Clean, responsive UI** powered by Tailwind and ShadCN.  
+- 🔒 **Type-safe codebase** with TypeScript and Zod validation.  
+- 🧠 **Smooth animations and reliable state handling** with GSAP, Framer Motion, Redux, and Zustand.  
+- 🌱 **Future scalability** for large-scale or enterprise-level features.  
 
 ---
 
 ## 🧠 Alternative Considerations
 
 If required in future phases:
-- **Next.js 16** can replace React 19 to enable **SSR (Server-Side Rendering)** and **SEO enhancements**.  
-- **Chakra UI** or **Mantine** could be alternatives to ShadCN for prebuilt theming options.
+- **Next.js 16** – for **server-side rendering (SSR)** and enhanced **SEO optimization**.  
+- **Chakra UI** or **Mantine** – for prebuilt, theme-ready UI alternatives.
 
 ---
 
