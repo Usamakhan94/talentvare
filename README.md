@@ -1,75 +1,49 @@
-# React + TypeScript + Vite
+# 🌐 Talentvare – Frontend Technology Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For the development of **Talentvare**, I’ve selected a modern and performance-focused front-end stack designed to ensure speed, scalability, and a clean development workflow.  
+Each technology was chosen for its stability, maintainability, and seamless integration with modern UI/UX standards.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack Overview
 
-## React Compiler
+| Category | Technology | Description |
+|-----------|-------------|-------------|
+| **Framework** | [React 19](https://react.dev) | Modern and modular library for building scalable user interfaces. |
+| **Language** | [TypeScript](https://www.typescriptlang.org) | Adds type safety and reliability for long-term maintainability. |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) | Utility-first CSS for fast, consistent, and responsive styling. |
+| **UI Components** | [ShadCN/UI](https://ui.shadcn.com) | Accessible, customizable component library built on Tailwind. |
+| **Forms & Validation** | [React Hook Form](https://react-hook-form.com) + [Zod](https://zod.dev) | Type-safe, schema-based form handling and validation. |
+| **Carousel / Slider** | [Swiper.js](https://swiperjs.com) | Lightweight and responsive slider for dynamic interactions. |
+| **Build Tool** | [Vite](https://vitejs.dev) | Ultra-fast build tool for modern front-end development. |
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 💡 Additional Integrations (Future-Ready)
 
-## Expanding the ESLint configuration
+- **Framer Motion** – For smooth and fluid animations.  
+- **React Query (TanStack Query)** – For API caching and data synchronization.  
+- **Zustand** – For lightweight, scalable state management.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Summary
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This stack ensures:
+- ⚡ **High performance** and optimized builds.  
+- 💎 **Modern, clean, and responsive UI.**  
+- 🔒 **Type-safe, reliable, and maintainable codebase.**  
+- 🌱 **Scalability** for future features and expansions.  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 Alternative Considerations
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+If required in future phases:
+- **Next.js 16** can replace React 19 to enable **SSR (Server-Side Rendering)** and **SEO enhancements**.  
+- **Chakra UI** or **Mantine** could be alternatives to ShadCN for prebuilt theming options.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### 🕷️ Built with ❤️ by [SpiderSwift](https://spiderswift.com)
+Modern. Scalable. Elegant.
