@@ -32,11 +32,11 @@ Each technology was chosen to ensure a clean development workflow, fast performa
 ## 🚀 Summary
 
 This stack ensures:
-- ⚡ **High performance** with modern build tools and React optimizations.  
-- 💎 **Clean, responsive UI** powered by Tailwind and ShadCN.  
-- 🔒 **Type-safe codebase** with TypeScript and Zod validation.  
-- 🧠 **Smooth animations and reliable state handling** with GSAP, Framer Motion, Redux, and Zustand.  
-- 🌱 **Future scalability** for large-scale or enterprise-level features.  
+-  **High performance** with modern build tools and React optimizations.  
+-  **Clean, responsive UI** powered by Tailwind and ShadCN.  
+-  **Type-safe codebase** with TypeScript and Zod validation.  
+-  **Smooth animations and reliable state handling** with GSAP, Framer Motion, Redux, and Zustand.  
+-  **Future scalability** for large-scale or enterprise-level features.  
 
 ---
 
@@ -44,9 +44,4 @@ This stack ensures:
 
 If required in future phases:
 - **Next.js 16** – for **server-side rendering (SSR)** and enhanced **SEO optimization**.  
-- **Chakra UI** or **Mantine** – for prebuilt, theme-ready UI alternatives.
-
----
-
-### 🕷️ Built with ❤️ by [SpiderSwift](https://spiderswift.com)
-Modern. Scalable. Elegant.
+- **UI Alternatives:** [Material UI](https://mui.com), [Bootstrap](https://getbootstrap.com), or [Ant Design](https://ant.design) for production-ready, themeable component libraries.
